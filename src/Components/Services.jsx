@@ -13,7 +13,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="services">
       <div className="container">
         <Heading
           title="How can we help you today???"

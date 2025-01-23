@@ -40,28 +40,27 @@ import {
     {
       id: "0",
       title: "Home",
-      url: "#features",
+      url: "#home",
     },
     {
       id: "1",
       title: "About US",
-      url: "#pricing",
+      url: "#about",
     },
     {
       id: "2",
       title: "Services",
-      url: "#how-to-use",
+      url: "#services",
     },
     {
       id: "3",
       title: "Projects",
-      url: "#roadmap",
+      url: "#projects",
     },
     {
       id: "4",
       title: "Careers",
       url: "#careers",
-      onlyMobile: true,
     },
     {
       id: "5",
@@ -97,8 +96,8 @@ import {
       id: "0",
       title: "Voice recognition",
       text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-      date: "May 2023",
-      status: "done",
+      date: "May 2024",
+      status: "In progress",
       imageUrl: roadmap1,
       colorful: true,
     },
@@ -106,7 +105,7 @@ import {
       id: "1",
       title: "Gamification",
       text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-      date: "May 2023",
+      date: "September 2023",
       status: "progress",
       imageUrl: roadmap2,
     },
@@ -114,7 +113,7 @@ import {
       id: "2",
       title: "Chatbot customization",
       text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-      date: "May 2023",
+      date: "December 2024",
       status: "done",
       imageUrl: roadmap3,
     },
@@ -122,7 +121,7 @@ import {
       id: "3",
       title: "Integration with APIs",
       text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-      date: "May 2023",
+      date: "March 2024",
       status: "progress",
       imageUrl: roadmap4,
     },
@@ -292,10 +291,10 @@ import {
     },
   ];
 
-  export const Careers = [
+  export const careers = [
     {
       id: "0",
-      title: "Ask anything",
+      title: "Software Developer",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
       backgroundUrl: "assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
@@ -303,7 +302,7 @@ import {
     },
     {
       id: "1",
-      title: "Connect everywhere ",
+      title: "Senior Software Developer ",
       text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
       backgroundUrl: "assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
@@ -312,7 +311,7 @@ import {
     },
     {
       id: "2",
-      title: "Customer Obsession ",
+      title: "Data Scientist",
       text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
       backgroundUrl: "assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
@@ -320,7 +319,7 @@ import {
     },
     {
       id: "3",
-      title: "Fast responding",
+      title: "Data Engineer",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
       backgroundUrl: "assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
@@ -329,7 +328,7 @@ import {
     },
     {
       id: "4",
-      title: "Improve everyday",
+      title: "DevOps Engineer",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
       backgroundUrl: "assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
@@ -337,7 +336,7 @@ import {
     },
     {
       id: "5",
-      title: "Deliver Results",
+      title: "ML Engineer",
       text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
       backgroundUrl: "assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
@@ -350,7 +349,7 @@ import {
       id: "0",
       title: "Discord",
       iconUrl: discordBlack,
-      url: "#",
+      url: "https://www.linkedin.com/company/sainar-solutions-inc/",
     },
     {
       id: "1",
@@ -362,7 +361,7 @@ import {
       id: "2",
       title: "Instagram",
       iconUrl: instagram,
-      url: "#",
+      url: "https://www.instagram.com/sainarsolutions/",
     },
     {
       id: "3",
@@ -374,6 +373,6 @@ import {
       id: "4",
       title: "Facebook",
       iconUrl: facebook,
-      url: "#",
+      url: "https://www.facebook.com/sainarsolutions/",
     },
   ];

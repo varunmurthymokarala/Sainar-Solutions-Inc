@@ -7,7 +7,7 @@ import { check2, grid, loading1 } from "../assets/assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden" id="projects">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re working on" />
 
@@ -69,7 +69,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
+        <Button>Careers</Button>
       </div>
     </div>
   </Section>

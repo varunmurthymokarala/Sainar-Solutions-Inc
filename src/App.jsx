@@ -2,10 +2,11 @@ import ButtonGradient from "./assets/assets/svg/ButtonGradient";
 import Benefits from "./Components/Benefits";
 import Collaboration from "./Components/Collaboration";
 import Header from "./Components/Header";
-import Hero from "./Components/hero";
+import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import Pricing from "./Components/Pricing";
 import Roadmap from "./Components/Roadmap";
+import Careers from "./Components/Careers";
 import Footer from "./Components/Footer";
 
 
@@ -28,6 +29,7 @@ const App = () => {
        <Services />
        <Pricing />
        <Roadmap />
+       <Careers />
        <Footer />
        
        

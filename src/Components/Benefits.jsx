@@ -7,7 +7,7 @@ import ClipPath from "../assets/assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="home">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
@@ -27,16 +27,11 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
-                    src={item.iconUrl}
-                    width={48}
-                    height={48}
-                    alt={item.title}
-                  />
+                 
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
+                    
                   </p>
-                  <Arrow />
+                  
                 </div>
               </div>
 
