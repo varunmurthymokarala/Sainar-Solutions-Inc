@@ -73,7 +73,7 @@ const Services = () => {
                 </p>
               </div>
 
-              <PhotoChatMessage />
+              
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
@@ -116,9 +116,9 @@ const Services = () => {
                   height={400}
                   alt="Scary robot"
                 />
-
+                {/*
                 <VideoChatMessage />
-                <VideoBar />
+                <VideoBar /> */}
               </div>
             </div>
           </div>

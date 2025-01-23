@@ -65,7 +65,7 @@ import {
     {
       id: "5",
       title: "Contact US",
-      url: "#footer",
+      url: "#contact",
       onlyMobile: true,
     },
   ];
@@ -94,8 +94,8 @@ import {
   export const roadmap = [
     {
       id: "0",
-      title: "Voice recognition",
-      text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+      title: "Secure Voice Biometrics",
+      text: "Secure voice biometrics analyzes unique voice patterns to verify a person's identity, ensuring accurate and convenient authentication. It enhances security by using physiological and behavioral voice traits to prevent unauthorized access.",
       date: "May 2024",
       status: "In progress",
       imageUrl: roadmap1,
@@ -103,26 +103,26 @@ import {
     },
     {
       id: "1",
-      title: "Gamification",
-      text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+      title: "Cloud Access Security Broker",
+      text: "A Cloud Access Security Broker (CASB) acts as a cybersecurity layer between users and cloud services, ensuring secure access, data protection, and compliance. It provides visibility, threat detection, and control over sensitive data in cloud environments",
       date: "September 2023",
-      status: "progress",
+      status: "In progress",
       imageUrl: roadmap2,
     },
     {
       id: "2",
-      title: "Chatbot customization",
-      text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+      title: "Customer Service Chatbots",
+      text: "A customer service chatbot powered by LLMs (Large Language Models) uses advanced ML (Machine Learning) to understand and respond to customer queries in natural language, providing accurate and efficient support. It automates interactions, improving response times and user satisfaction.",
       date: "December 2024",
       status: "done",
       imageUrl: roadmap3,
     },
     {
       id: "3",
-      title: "Integration with APIs",
-      text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+      title: "Predictive Analysis with Regression ",
+      text: "A predictive analysis API leveraging regression models to forecast trends and outcomes from historical data. It enables seamless integration, offering accurate predictions for decision-making in business and analytics.",
       date: "March 2024",
-      status: "progress",
+      status: "In progress",
       imageUrl: roadmap4,
     },
   ];
@@ -295,7 +295,7 @@ import {
     {
       id: "0",
       title: "Software Developer",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      text: "Location: Frisco, Texas",
       backgroundUrl: "assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
@@ -303,7 +303,7 @@ import {
     {
       id: "1",
       title: "Senior Software Developer ",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      text: "Location: Remote, USA",
       backgroundUrl: "assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
@@ -312,7 +312,7 @@ import {
     {
       id: "2",
       title: "Data Scientist",
-      text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+      text: "Location: Remote, India",
       backgroundUrl: "assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
@@ -320,7 +320,7 @@ import {
     {
       id: "3",
       title: "Data Engineer",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      text: "Location: Frisco, Texas",
       backgroundUrl: "assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
@@ -328,20 +328,21 @@ import {
     },
     {
       id: "4",
-      title: "DevOps Engineer",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "DevOps Engineer/ Site Reliability Engineer",
+      text: "Location: Frisco, Texas",
       backgroundUrl: "assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
     },
     {
       id: "5",
-      title: "ML Engineer",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      title: "ML Engineer(MLOps)",
+      text: "Location: Remote, India",
       backgroundUrl: "assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
     },
+   
   ];
   
   export const socials = [
