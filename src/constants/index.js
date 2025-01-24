@@ -134,7 +134,7 @@ import {
     {
       id: "0",
       title: "Seamless Integration",
-      text: collabText,
+      
     },
     {
       id: "1",
