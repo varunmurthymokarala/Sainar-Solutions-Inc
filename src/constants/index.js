@@ -246,6 +246,8 @@ import {
       backgroundUrl: "assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      
+      
     },
     {
       id: "1",
@@ -255,6 +257,7 @@ import {
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
       light: true,
+      
     },
     {
       id: "2",
@@ -263,6 +266,7 @@ import {
       backgroundUrl: "assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
+      
     },
     {
       id: "3",
@@ -272,6 +276,7 @@ import {
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
       light: true,
+     
     },
     {
       id: "4",
@@ -280,6 +285,7 @@ import {
       backgroundUrl: "assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      
     },
     {
       id: "5",
@@ -288,6 +294,7 @@ import {
       backgroundUrl: "assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
+      
     },
   ];
 
@@ -299,6 +306,8 @@ import {
       backgroundUrl: "assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      
+      
     },
     {
       id: "1",
@@ -308,6 +317,7 @@ import {
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
       light: true,
+      
     },
     {
       id: "2",
@@ -316,6 +326,7 @@ import {
       backgroundUrl: "assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
+      
     },
     {
       id: "3",
@@ -325,6 +336,7 @@ import {
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
       light: true,
+     
     },
     {
       id: "4",
@@ -333,6 +345,7 @@ import {
       backgroundUrl: "assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      
     },
     {
       id: "5",
@@ -341,6 +354,7 @@ import {
       backgroundUrl: "assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
+      
     },
    
   ];
@@ -366,12 +380,6 @@ import {
     },
     {
       id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
-    },
-    {
-      id: "4",
       title: "Facebook",
       iconUrl: facebook,
       url: "https://www.facebook.com/sainarsolutions/",

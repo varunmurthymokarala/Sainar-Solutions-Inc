@@ -9,6 +9,9 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
+        <p className="caption text-n-4 lg:block">
+        Head Office: 8765 Stockard Dr ,Ste#601 Frisco,TX - 75034, 214-432-4366, contact@sainars.com
+        </p>
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (

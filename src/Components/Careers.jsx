@@ -25,9 +25,11 @@ const Careers = () => {
                   }}
                   key={item.id}
                 >
-                  <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+                 
+                  <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
                     <h5 className="h5 mb-5">{item.title}</h5>
                     <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                   
                     <div className="flex items-center mt-auto">
                       <img
                         src={item.iconUrl}
@@ -35,12 +37,18 @@ const Careers = () => {
                         height={48}
                         alt={item.title}
                       />
-                      <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider" >
-                        Apply on LinkedIn 
-                      </p>
+                      <a
+                      href="https://www.linkedin.com/company/sainar-solutions-inc/jobs/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
+                      >
+                      Apply on LinkedIn
+                      </a>
                     <Arrow /> 
                     </div>
                   </div>
+                  
     
                   {item.light && <GradientLight />}
     
@@ -65,7 +73,9 @@ const Careers = () => {
               ))}
             </div>
           </div>
+         
         </Section>
+        
       );
     };
 export default Careers;
